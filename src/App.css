@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* grid-template-columns: repeat(4, 1fr); */
 }
 
 .App-link {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product-info button{
+  border: none;
+  background: none;
+  width: 4rem;
+  padding: 0.3rem;
+  border-radius: 0.8rem;
+  color: white;
+  background-image: linear-gradient(#f0a484, #d15039);
+  float: right;
+}
+.product-info button:active{
+  width: 5rem;
+  height: 1.7rem;
+}
+.dynamic-data{
+  text-align: left;
+}
+.dynamic-data aside {
+  float: right;
+  margin-right: 0.5rem;
+}
+.dynamic-data aside img {
+  border-radius: 1rem;
 }
